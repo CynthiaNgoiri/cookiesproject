@@ -250,4 +250,118 @@ header {
     background-color: #ECAA62;
 }
 /* ---END OF FIFTH-CONTAINER (GALLERY) --- */
+/* ---START OF SIXTH-CONTAINER (FORM/DELIVERY) --- */
+
+.box{
+    width: 50%;
+    margin: 30px auto;
+
+}
+.box img{
+    width: 100%;
+
+
+}
+.icons a{
+    font-size:medium;
+    color: #000000;
+    padding: 4px;
+}
+
+ .box::before{
+    content:'';
+    position: absolute;
+    top:100%; left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    transition: 2s linear;
+    opacity: 0;
+
+}
+ .box::before{
+    top: 0;
+}
+
+.order{
+    background:url(/img/delivery.jpg)no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.heading {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.heading span{
+    color: #ECAA62;
+}
+
+.order .row{
+    display:flex;
+   background: #fff;
+   margin: 2rem auto;
+   overflow: hidden;
+   box-shadow: 0rem .5rem 1rem  rgba(0,0,0,.3); 
+   border-radius: 1rem;
+    width: 85%;
+} 
+
+.order .row .image{
+    flex:1 1 40%;
+
+}
+
+.order .row .image img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+.order .row form{
+    flex:1 1 60%;
+    background: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#submitButton {
+    width: fit-content;
+    background-color: white;
+    border: 1rem solid var(---yellow);
+    border-radius: 5rem;
+    padding: .7rem 2rem;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+#submitButton:hover {
+    background-color: #ECAA62;
+}
+.order .row form .box{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: none;
+    background:#f0f0f0 ;
+    width: 90%;
+    border:none;
+    border-radius: 5px;
+}
+.order .row form .box::placeholder{
+    text-transform:capitalize;
+}
+.order .row form .address{
+    resize:none;
+    height:15rem;
+}
+
+/* -----END OF ORDER SECTION (form)----- */
+
 
