@@ -27,3 +27,36 @@ header {
     height: fit-content;
     background-color: white;
 }
+#logo {
+    width: 150px;
+}
+.navbar {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+.navbar nav {
+    display: flex;
+    align-items: center;
+}
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar nav ul li {
+    list-style: none;
+    padding: 8px;
+}
+.navbar nav ul li a {
+    color: #ecaa62;
+    text-decoration: none;
+}
+#hamburger {
+    color: #ECAA62;
+    font-size: 24px;
+    display: none;
+}
+/* ---END OF MENUBAR--- */
