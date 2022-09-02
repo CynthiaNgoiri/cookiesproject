@@ -106,3 +106,44 @@ header {
     background-color: #ECAA62;
 }
 /* ---END OF FIRST-CONTAINER--- */
+/* ---START OF SECOND-CONTAINER--- */
+.second-cont {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+}
+.second-cont-img{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.second-cont-content {
+    width: 50%;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second-cont-content p {
+    font-size: 20px;
+}
+.second-cont-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+#learnMoreButton {
+    width: fit-content;
+    background-color: white;
+    border: 1rem solid var(---yellow);
+    border-radius: 5rem;
+    padding: .7rem 2rem;
+    margin-top: 1rem;
+    font-size: 17px;
+    font-size: 20px;
+}
+#learnMoreButton:hover {
+    background-color: #ECAA62;
+}
+/* ---END OF SECOND-CONTAINER--- */
