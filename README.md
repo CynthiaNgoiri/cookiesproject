@@ -12,10 +12,10 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p> Cookies is a milk production monitoring system that enables one to input the values of produced milk per cow shed and return income values based on weekly, monthly and annual milk production. It contains a single static landing page of the DairyFarm that is visually appealing and is a major boost to monitoring daily production.</p>
+<p> Cookies is a cookies website . It contains a single static landing page of the cookies website that is visually appealing.</p>
 
 ## Deployment
-<p>This is a live link of the project: </p>
+<p>This is a live link of the project:https://cynthiangoiri.github.io/cookiesproject/ </p>
 
 ## Installation
 

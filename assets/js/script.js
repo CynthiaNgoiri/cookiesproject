@@ -42,3 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Thank you for choosing Cookie World!");
     console.log("Thank you for choosing Cookie World!");
   });
+
+const comment = document.getElementById("form");
+comment.addEventListener("submit", event => {
+event.preventDefault();
+alert("Your message has been received,we will get back to shortly")
+})
