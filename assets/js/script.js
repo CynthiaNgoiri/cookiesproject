@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    //   alert('Welcome to Cookie World')
+      alert('Welcome to Cookie World')
     const options = {
       method: "GET",
       headers: {
